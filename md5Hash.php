@@ -1,4 +1,4 @@
-
+<?php
     public static function md5Hash($password, $salt, $iterations)
     {
         $hash = hash('md5', $salt.$password, TRUE);
